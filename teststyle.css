@@ -1,0 +1,52 @@
+@media only screen and (max-width:1280px) {
+    body {
+        background-color: blueviolet;
+    }
+    .text {
+        color: white;
+    }
+    div:before {
+        content: "Desktop";
+    }
+}
+
+@media only screen and (max-width:1279px) {
+    body {
+        background-color: red;
+    }
+    .text {
+        color: blue;
+    }
+    div:before {
+        content: "Laptop";
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-color: green;
+    }
+    .text {
+        color: white;
+    }
+    div:before {
+        content: "Tablet";
+    }
+}
+
+@media only screen and (max-width:480px) {
+    body {
+        background-color: blue;
+    }
+    .text {
+        color: green;
+    }
+    div:before {
+        content: "Mobile";
+    }
+    }
+
+
+
+
+
